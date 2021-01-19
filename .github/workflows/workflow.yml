@@ -11,7 +11,7 @@ jobs:
       matrix:
         os: [macos-latest]
         api-level: [29, 30]
-        target: [default, google_apis, google_apis_playstore]
+        target: [google_apis, google_apis_playstore]
 
     steps:
     - name: checkout
