@@ -12,6 +12,10 @@ jobs:
         os: [macos-latest]
         api-level: [29, 30]
         target: [google_apis, google_apis_playstore]
+      exclude:
+        - os: macos-latest
+          api-level: 30
+          target: google_apis_playstore
 
     steps:
     - name: checkout
