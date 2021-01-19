@@ -1,11 +1,5 @@
 name: Main workflow
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
+on: [push]
 
 jobs:
   test:
